@@ -33,3 +33,5 @@ if __name__ == '__main__':
     assert parse('http://example.com/?name=&age=&city=') == {'name': '', 'age': '', 'city': ''}
     assert parse('http://example.com/?name=John&name=Doe') == {'name': 'John'}
     assert parse('https://example.com/path/to/page?name=&color=') == {'name': '', 'color': ''}
+
+print(42)
