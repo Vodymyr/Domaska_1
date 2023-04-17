@@ -35,3 +35,4 @@ if __name__ == '__main__':
     assert parse('https://example.com/path/to/page?name=&color=') == {'name': '', 'color': ''}
 
 print(42)
+print(43)
